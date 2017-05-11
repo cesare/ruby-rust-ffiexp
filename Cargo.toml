@@ -3,4 +3,8 @@ name = "ffiexp"
 version = "0.1.0"
 authors = ["SAWADA Tadashi <cesare@mayverse.jp>"]
 
+[lib]
+name = "ffiexp"
+crate-type = ["dylib"]
+
 [dependencies]
